@@ -49,7 +49,7 @@ const groupedSkills = {
     { icon: <FaGitAlt />, name: "Git" },
     { icon: <SiJenkins />, name: "Jenkins" },
   ],
-  "Data & Visualizations": [
+  "Data & Visualization": [
     { icon: <SiPandas />, name: "Pandas" },
     { icon: <SiNumpy />, name: "NumPy" },
     { icon: <SiD3Dotjs />, name: "D3.js" },
