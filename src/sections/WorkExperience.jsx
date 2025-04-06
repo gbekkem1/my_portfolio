@@ -62,8 +62,8 @@ const WorkExperience = () => {
               />
               <div>
                 <h3 className="text-xl font-semibold text-zinc-300">{exp.role}</h3>
-                <p className="text-sm text-gray-600 text-zinc-300 ">{exp.company} | {exp.location}</p>
-                <p className="text-sm text-gray-500 text-zinc-300 ">{exp.period}</p>
+                <p className="text-sm  text-zinc-300 ">{exp.company} | {exp.location}</p>
+                <p className="text-sm  text-zinc-300 ">{exp.period}</p>
               </div>
             </div>
             <p className="text-sm mb-3 text-zinc-300 "><strong>Technologies:</strong> {exp.tech}</p>
