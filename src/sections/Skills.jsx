@@ -28,7 +28,7 @@ const groupedSkills = {
     { icon: <SiRedux />, name: "Redux" },
     { icon: <SiAngular />, name: "Angular" },
   ],
-  "Backend & API": [
+  "Backend Frameworks": [
     { icon: <SiDjango />, name: "Django" },
     { icon: <SiFlask />, name: "Flask" },
     { icon: <SiFastapi />, name: "Fast API" },
@@ -49,7 +49,7 @@ const groupedSkills = {
     { icon: <FaGitAlt />, name: "Git" },
     { icon: <SiJenkins />, name: "Jenkins" },
   ],
-  "Data & Visualization": [
+  "Data & Visualizations": [
     { icon: <SiPandas />, name: "Pandas" },
     { icon: <SiNumpy />, name: "NumPy" },
     { icon: <SiD3Dotjs />, name: "D3.js" },
@@ -73,7 +73,7 @@ const SkillGrid = () => {
             key={category}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: i * 0.2 }}
+            transition={{ duration: 0.3 }}
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-semibold text-center mb-6 text-[#c1a86b]">
