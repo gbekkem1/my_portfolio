@@ -77,7 +77,7 @@ const Contact = () => {
             ></textarea>
             <button
               type="submit"
-              className="bg-[#c1a86b] text-black font-semibold py-2 px-4 rounded hover:bg-[#a88950] transition"
+              className="bg-[#c1a86b] text-zinc-300 font-semibold py-2 px-4 rounded hover:bg-[#a88950] transition"
             >
               Send Message
             </button>
